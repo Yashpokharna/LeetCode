@@ -6,7 +6,6 @@ public class LetterCombOfMobile {
 //        System.out.println(padCount("", "12"));
 //        pad("","12");
     }
-
     static void pad(String p, String digits) {
         if (digits.isEmpty()) {
             System.out.println(p);
