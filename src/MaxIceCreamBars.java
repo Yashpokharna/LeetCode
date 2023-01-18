@@ -13,10 +13,10 @@ public class MaxIceCreamBars {
     }
 
     public static void main(String[] args) {
-        int[] costs = {10,6,8,7,7,8};
+        int[] costs = {1,3,2,4,1};
         // sabse pehle array sort kar lenge jisse min value wale digit aage ajaye
         // after sorting= 1,1,2,3,4
         // ab inko tab tak add karenge jab tak costs<=coins
-        System.out.println(maxIceCream(costs,5));
+        System.out.println(maxIceCream(costs,7));
     }
 }

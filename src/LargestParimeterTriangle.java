@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class LargestParimeterTriangle {
     static int largestPerimeter(int[] nums) {
         Arrays.sort(nums);
@@ -11,12 +10,9 @@ public class LargestParimeterTriangle {
         }
         return 0;
     }
-
     public static void main(String[] args) {
         int[] nums = {2,1,2};
         // 5 => 2+1+2
         System.out.println(largestPerimeter(nums));
-
-
     }
 }
